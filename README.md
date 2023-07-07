@@ -45,7 +45,6 @@ For this Node module, we will follow the set up that is provided in this reposit
 
 Use `yarn dev:backend` to start the backend dev environment.
 
-![dual terminal](__lecture/assets/dual_terminal.gif)
 
 ---
 
