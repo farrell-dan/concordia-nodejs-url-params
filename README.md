@@ -52,30 +52,6 @@ For this part of the workshop, you won't use the frontend at all. Follow the ins
 
 ---
 
-<center>🟡 - Minimally complete workshop (75%) - 🟡</center>
-
----
-
-## Upgrading the Frontend
-
-If you start up the FE and go to `http://localhost:3000`, you should have a functional app. It still needs a little love, but overall it should work.
-
-This is what you see on the homepage.
-
-![homepage](./lecture/assets/homepage.png)
-
-Take a look through the `frontend` folder at the all of the code that is already written. 
-
-There are still a few components to create to get a fully functional site.
-
-### [Exercise 6](workshop/exercise-6.md) - Render the top 50 songs
-
-### [Exercise 7](workshop/exercise-7.md) - Render the songs by the most popular artist
-
-### [Exercise 8](workshop/exercise-8.md) - Render the songs on each artist's page
-
----
-
 <center>🟢 - Complete workshop (100%) - 🟢</center>
 
 ---
