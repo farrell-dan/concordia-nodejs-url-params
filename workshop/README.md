@@ -18,19 +18,11 @@
 
 ## Setup
 
-Today's workshop is a _**full stack**_ workshop. You'll need 2 active terminals to be able to run this workshop as intended.
-
-### The Frontend (website):
-1. Open a terminal.
-2. Navigate to the `client` folder by typing `cd client`.
-3. Install the dependencies with `yarn install`.
-4. Boot React with `yarn start`.
-
 ### The Backend (server):
 1. Open a **new** terminal (you can use a split terminal if you want).
-2. Navigate to the `server` folder by typing `cd server`.
+2. Navigate to the `backend` folder by typing `cd backend`.
 3. Install the dependencies with `yarn install`.
-4. Boot the server with `yarn start:server`.
+4. Boot the server with `yarn dev:backend`.
 
 After following these steps, you should have 2 terminals. One should be running React, and the other should be running the server.
 
@@ -49,30 +41,6 @@ For this part of the workshop, you won't use the frontend at all. Follow the ins
 ### [Exercise 4](workshop/exercise-4.md) - The Most popular artist is...
 
 ### [Exercise 5](workshop/exercise-5.md) - Array of Artists
-
----
-
-<center>🟡 - Minimally complete workshop (75%) - 🟡</center>
-
----
-
-## Upgrading the Frontend
-
-If you start up the FE and go to `http://localhost:3000`, you should have a functional app. It still needs a little love, but overall it should work.
-
-This is what you see on the homepage.
-
-![homepage](./lecture/assets/homepage.png)
-
-Take a look through the `frontend` folder at the all of the code that is already written. 
-
-There are still a few components to create to get a fully functional site.
-
-### [Exercise 6](workshop/exercise-6.md) - Render the top 50 songs
-
-### [Exercise 7](workshop/exercise-7.md) - Render the songs by the most popular artist
-
-### [Exercise 8](workshop/exercise-8.md) - Render the songs on each artist's page
 
 ---
 
