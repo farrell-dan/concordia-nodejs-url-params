@@ -27,4 +27,4 @@ You will need to create the endpoint in the `server.js` file.
 
 Test your endpoint with [insomnia](https://insomnia.rest/download).
 
-![insomnia ex2](../__lecture/assets/insomnia_top50.png)
+![insomnia ex2](../lecture/assets/insomnia_top50.png)
