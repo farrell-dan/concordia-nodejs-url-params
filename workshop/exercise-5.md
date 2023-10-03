@@ -4,4 +4,4 @@ The frontend needs an array of all of the artists in the top 50. Create an endpo
 
 **HINT:** You can look into a new ES6 feature `new Set()` that has a side-effect of filtering out duplicates. [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set).
 
-![insomnia ex6](../__lecture/assets/insomnia_artists.png)
+![insomnia ex6](../lecture/assets/insomnia_artists.png)
