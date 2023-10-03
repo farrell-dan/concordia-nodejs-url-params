@@ -32,15 +32,15 @@ After following these steps, you should have 2 terminals. One should be running 
 
 For this part of the workshop, you won't use the frontend at all. Follow the instructions, and once you finish exercise 5, you will have a functioning backend that will just work with the frontend.
 
-### [Exercise 1](workshop/exercise-1.md) - `/top50` endpoint
+### [Exercise 1](https://github.com/cb-wd-30/nodejs-url-params/blob/master/workshop/exercise-1.md) - `/top50` endpoint
 
-### [Exercise 2](workshop/exercise-2.md) - `GET`ting a specific song
+### [Exercise 2](https://github.com/cb-wd-30/nodejs-url-params/blob/master/workshop/exercise-2.md) - `GET`ting a specific song
 
-### [Exercise 3](workshop/exercise-3.md) - `GET`ting songs by a specific artist
+### [Exercise 3](https://github.com/cb-wd-30/nodejs-url-params/blob/master/workshop/exercise-3.md) - `GET`ting songs by a specific artist
 
-### [Exercise 4](workshop/exercise-4.md) - The Most popular artist is...
+### [Exercise 4](https://github.com/cb-wd-30/nodejs-url-params/blob/master/workshop/exercise-4.md) - The Most popular artist is...
 
-### [Exercise 5](workshop/exercise-5.md) - Array of Artists
+### [Exercise 5](https://github.com/cb-wd-30/nodejs-url-params/blob/master/workshop/exercise-5.md) - Array of Artists
 
 ---
 
