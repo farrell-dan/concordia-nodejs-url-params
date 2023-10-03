@@ -21,4 +21,4 @@ This `top50/artist/drake` should respond with
 
 If the artist is not found, return a 404.
 
-![insomnia ex4](../__lecture/assets/insomnia_songs-artist.png)
+![insomnia ex4](../lecture/assets/insomnia_songs-artist.png)
