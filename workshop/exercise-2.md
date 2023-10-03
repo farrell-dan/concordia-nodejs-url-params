@@ -30,4 +30,4 @@ _If you suddenly feel like you should create 50 different endpoints, **STOP**. T
 
 Test your endpoint in insomnia.
 
-![insomnia ex3](../__lecture/assets/insomnia_song.png)
+![insomnia ex3](../lecture/assets/insomnia_song.png)
