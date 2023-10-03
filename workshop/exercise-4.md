@@ -6,4 +6,4 @@ This endpoint will need a little more JS than the others.
 
 **HINT:** It's Justin Bieber. Really.
 
-![insomnia ex5](../__lecture/assets/insomnia_popular-artist.png)
+![insomnia ex5](../lecture/assets/insomnia_popular-artist.png)
