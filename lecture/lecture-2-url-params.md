@@ -101,7 +101,7 @@ app.get("/user/:id", (req, res) => {
 So this entering this url in the browser `http://localhost:8000/user/123456`
 
 ```bash
-THE PARAMS ARE { id: 123456 }
+THE PARAMS ARE { id: "123456" }
 ```
 
 ---
@@ -134,3 +134,26 @@ app.get("/question10", q10);
 
 // DRY :)
 ```
+
+---
+
+## Account for missing information
+
+Sometimes a param will request a resource we don't have.
+
+Example:
+
+```js
+const questions = [q1,q2,q3,q4,q5,q6,q7,q8,q9,q10]
+
+app.get("/question/:qNum" , (req, res) => {
+	const { qNum } = req.params;
+	const questionHandler = questions[qNum-1];
+	questionHandler(req, res)
+})
+```
+
+url pinged: `http://localhost:8000/question/42`
+
+Test, and make sure you don't crash your server!
+
