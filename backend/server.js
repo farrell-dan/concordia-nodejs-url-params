@@ -18,7 +18,12 @@ express()
   // Nothing to modify above this line
   // ---------------------------------
   // add new endpoints here 👇
-
+.get("/top50", (req, res) => {
+  res.json({
+    status: 200,
+    data: top50 ,
+  })
+})
   // add new endpoints here ☝️
   // ---------------------------------
   // Nothing to modify below this line
