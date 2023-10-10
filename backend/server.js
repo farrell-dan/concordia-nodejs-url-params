@@ -43,6 +43,23 @@ express()
   }
 })
 
+.get("/top50/artist/:artist", (req,res) => {
+  const artistName = req.params.artist;
+  const songByArtist = top50.filter(song => song.artist.toLowerCase() === artistName.toLowerCase());
+  
+  if (songByArtist.length > 0) {
+    res.json({
+      status: 200,
+      data: songByArtist,
+    });
+  } else {
+    res.status(404).json({
+      status: 404,
+      message: "Song not found.",
+    });
+  }
+})
+
 
   // add new endpoints here ☝️
   // ---------------------------------
