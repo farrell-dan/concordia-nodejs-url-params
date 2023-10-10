@@ -61,6 +61,29 @@ express()
 })
 
 
+.get('/top50/popular-artist', (req, res) => {
+
+  function countArtists(top50) {
+    const artistCount = {};
+    for (const song of top50) {
+      const artist = song.artist;
+      artistCount[artist] = (artistCount[artist] || 0) + 1;
+    }
+    return artistCount;
+  }
+
+  const artistCount = countArtists(top50);
+  const mostPopularArtist = Object.keys(artistCount).reduce((a, b) => (artistCount[a] > artistCount[b] ? a : b));
+
+  const songsByMostPopularArtist = top50.filter(song => song.artist === mostPopularArtist);
+
+  res.json({
+    status: 200,
+    data: songsByMostPopularArtist,
+    mostPopularArtist: mostPopularArtist,
+  });
+})
+
   // add new endpoints here ☝️
   // ---------------------------------
   // Nothing to modify below this line
