@@ -22,8 +22,28 @@ express()
   res.json({
     status: 200,
     data: top50 ,
-  })
+  });
 })
+
+.get("/top50/song/:rank", (req,res) => {
+  const rank = parseInt(req.params.rank, 10);
+  console.log(rank);
+  const song = top50.find(song => song.rank === rank);
+  console.log(song);
+  if (song) {
+    res.json({
+      status: 200,
+      data: song,
+    });
+  } else {
+    res.status(404).json({
+      status: 404,
+      message: "Song not found.",
+    });
+  }
+})
+
+
   // add new endpoints here ☝️
   // ---------------------------------
   // Nothing to modify below this line
