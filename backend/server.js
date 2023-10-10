@@ -84,6 +84,26 @@ express()
   });
 })
 
+
+.get('/top50/artist', (req, res) => {
+  
+  function getUniqueArtists(top50) {
+    const uniqueArtists = new Set();
+    for (const song of top50) {
+      uniqueArtists.add(song.artist);
+    }
+    return Array.from(uniqueArtists);
+  }
+
+  const uniqueArtists = getUniqueArtists(top50);
+
+  res.json({
+    status: 200,
+    data: uniqueArtists,
+  });
+})
+
+
   // add new endpoints here ☝️
   // ---------------------------------
   // Nothing to modify below this line
